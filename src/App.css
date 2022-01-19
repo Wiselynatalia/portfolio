@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Lusitana&display=swap");
+
+html body {
+  background: #fdfaf6;
+}
+
+navbar-nav {
+  font-size: xx-large !important;
+  color: rgb(100, 100, 100) !important;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+
+.head-lg {
+  font-family: "Lusitana", serif;
+  font-size: 50px;
+}
+
+.head {
+  font-family: "Lusitana", serif;
+  font-size: 30px;
+  margin-left: 5rem;
+  padding-top: 5rem;
+}
+
+.box {
+  width: 100px;
+  border-bottom: 2px solid #357a7f;
+  margin-left: 5rem;
+  margin-top: 5px;
+}
+
+.violet {
+  border-color: #e0c3f5;
+  margin-bottom: 3rem;
+}
+
+.pink {
+  border-color: #fad7d7;
+  margin-bottom: 2rem;
+}
+
+.Content {
+  padding-left: 2rem;
+  padding-top: 6rem;
+}
+
+.content {
+  color: gray;
+  width: 600px;
+}
+
+.read-more-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profpic img {
+  width: 600px;
+  height: auto;
+}
+
+.logo img {
+  width: 180px;
+}
+
+.color-nav {
+  background-color: #fdfaf6;
+  height: 8%;
+}
+
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color: #f5dae4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.idot {
+  height: 25px;
+  width: 25px;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.sdot {
+  height: 15px;
+  width: 15px;
+  background-color: orange;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.vl {
+  padding-top: 3rem;
+  border-left: 4px solid orange;
+  height: 1180px;
+  position: absolute;
+  left: 48%;
+  z-index: -999;
+}
+
+.arrow {
+  border: solid orange;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 5px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  position: absolute;
+  left: 47.6%;
+}
+
+.hl {
+  height: 3px;
+  background-color: orange;
+  width: 190px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+.duration p {
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+}
+.grid-container {
+  display: grid;
+  left: 50%;
+  margin-top: 8%;
+  margin-left: 30.4%;
+  grid-template-columns: 230px 50px 200px 290px;
+  grid-template-rows: 100px 100px 100px 100px;
+  justify-items: center; /* center items inside grid */
+  align-items: center; /* center items inside grid */
+  row-gap: 80px;
+}
+
+.lright {
+  display: flex;
+}
+.role {
+  text-align: left;
+  justify-self: start;
+  padding-left: 20px;
+}
+
+.hrow {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.thumbnail {
+  width: 300px;
+  height: 200px;
+
+  border-radius: 20px;
+  padding-top: 110px;
+  padding-left: 30px;
+  color: white;
+  font-size: 30px;
+}
+
+.gpurple {
+  background: linear-gradient(360deg, #e0c3f5, #fcebee);
+}
+
+.gpink {
+  background: linear-gradient(360deg, #f9c7c4, #fad7d7);
+}
+
+.thumbnail:hover {
+  background: linear-gradient(360deg, #bfa7d1, #bbaeb0);
+}
+
+.Title {
+  position: relative;
+}
+.Title img {
+  width: 100%;
+  height: auto;
+}
+
+.text-on-image {
+  position: absolute;
+  text-align: center;
+  left: 38%;
+  top: 45%;
+}
+
+.text-on-contact {
+  position: absolute;
+  text-align: left;
+  left: 10%;
+  top: 15%;
+}
+
+.whitebox {
+  margin-top: 2rem;
+  height: 520px;
+  width: 600px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.whitebox p {
+  padding-left: 8%;
+  padding-top: 5%;
+  font-family: "Lusitana", serif;
+  font-size: 18px;
+}
+
+.whitebox input,
+textarea {
+  margin-left: 8% !important;
+  width: 80%;
+  height: 45px;
+
+  background-color: #ededef;
+  border-radius: 5px;
+  border: gray;
+}
+
+.whitebox input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.submit {
+  width: 40%;
+  margin-top: 4%;
+  margin-left: 53%;
+}
+
+#status {
+  width: 80%;
+  margin-left: 8%;
+  margin-top: 3%;
+  text-align: center;
+  height: 14%;
+  border-radius: 5px;
+  animation: status 3s ease forwards;
+}
+
+#status.success {
+  background-color: rgb(192, 248, 217);
+}
+#status.error {
+  background-color: rgb(247, 208, 157);
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
